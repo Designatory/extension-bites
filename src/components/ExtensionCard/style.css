@@ -1,0 +1,48 @@
+.extension-card {
+  background: #931a1a3b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.extension-card .extension-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 5px;
+}
+
+.extension-card .extension-info .extension-logo {
+  border-radius: 8px;
+}
+
+.extension-card .extension-info .extension-description {
+  margin: 5px 15px;
+  line-height: 0;
+  margin-top: 15px;
+}
+
+.extension-card .extension-info .extension-description .extension-name {
+  font-weight: 700;
+}
+
+.extension-card .extension-info .extension-description .extension-quick {
+  color: grey;
+}
+
+.extension-card .extension-link {
+  background-color: #931a1a3b;
+  padding: 10px 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .extension-card .extension-info .extension-description {
+    display: none;
+  }
+
+  .extension-card .extension-link {
+    width: 80%;
+  }
+}
