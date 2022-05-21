@@ -71,7 +71,6 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             type: 'dropdown',
             label: 'Extensions',
@@ -93,6 +92,7 @@ const config = {
               // },
             ],
           },
+          { to: '/blog', label: 'Blog', position: 'left' },
 
           {
             href: 'https://github.com/facebook/docusaurus',
