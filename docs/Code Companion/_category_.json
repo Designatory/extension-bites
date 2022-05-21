@@ -1,0 +1,10 @@
+{
+  "position": 2,
+  "label": "Code Companion",
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "installation" },
+  "customProps": {
+    "description": "Bootstrap5 Snippets Helper"
+  }
+}
