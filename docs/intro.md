@@ -18,7 +18,7 @@ import Extension from '../src/components/ExtensionCard';
 
 ## Bootstrap5 Snippets
 
-<Extension image="../img/extension-logo/bootstrap5.png" name="Code Companion" about="A best code helper" btn="install" link="https://marketplace.visualstudio.com/items?itemName=NamanGarg.CodeCompanion"/>
+<Extension image="../../img/extension-logo/bootstrap5.png" name="Code Companion" about="A best code helper" btn="install" link="https://marketplace.visualstudio.com/items?itemName=NamanGarg.CodeCompanion"/>
 
 <br/>
 
