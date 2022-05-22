@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const config = {
   title: 'Extension Bites',
   tagline: 'Awesome vscode extensions',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://designatory.github.io',
+  baseUrl: '/extension-bites/',
+  // trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -62,7 +63,7 @@ const config = {
         title: 'Extension Bites',
         logo: {
           alt: 'Extension Bites logo',
-          src: 'img/logo.png',
+          src: '../img/logo.png',
         },
         items: [
           // {
@@ -76,20 +77,16 @@ const config = {
             label: 'Extensions',
             position: 'left',
             items: [
-              // {
-              //   label: '#',
-              //   href: '#',
-              // },
               {
                 type: 'doc',
                 label: 'Code Companion',
-                docId: 'Code Companion/html',
+                docId: 'Code Companion/installation',
               },
-              // {
-              //   type: 'doc',
-              //   label: 'Bootstrap5 Snippets',
-              //   docId: 'intro',
-              // },
+              {
+                type: 'doc',
+                label: 'Bootstrap5 Snippets',
+                docId: 'Bootstrap5 Snippets/installation',
+              },
             ],
           },
           { to: '/blog', label: 'Blog', position: 'left' },
@@ -149,6 +146,11 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Extension Bites | All Right Reserved`,
+      },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
       },
       prism: {
         theme: lightCodeTheme,
