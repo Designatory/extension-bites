@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkextension_bites=self.webpackChunkextension_bites||[]).push([[309],{6354:function(e){e.exports=JSON.parse('{"permalink":"/extension-bites/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

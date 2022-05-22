@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkextension_bites=self.webpackChunkextension_bites||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/extension-bites/blog/welcome"}]}')}}]);

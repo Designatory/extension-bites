@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkextension_bites=self.webpackChunkextension_bites||[]).push([[927],{3745:function(e){e.exports=JSON.parse('{"label":"hello","permalink":"/extension-bites/blog/tags/hello","allTagsPath":"/extension-bites/blog/tags","count":1}')}}]);
