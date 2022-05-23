@@ -63,7 +63,7 @@ const config = {
         title: 'Extension Bites',
         logo: {
           alt: 'Extension Bites logo',
-          src: '../img/logo.png',
+          src: 'img/logo.png',
         },
         items: [
           // {
