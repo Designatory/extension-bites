@@ -15,11 +15,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
-          cache: yarn
+          cache: npm
       - name: Test deployment
         run: |
-          yarn install --frozen-lockfile
-          yarn build
+          npm ci
+          npm run build
   deploy:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
