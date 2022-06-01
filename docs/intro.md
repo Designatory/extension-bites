@@ -8,7 +8,7 @@ import '@fontsource/poppins'
 
 import Extension from '../src/components/ExtensionCard';
 
-○ Click below to install our extensions
+○ Click below to look into installation guides.
 
 ## Code Companion
 
